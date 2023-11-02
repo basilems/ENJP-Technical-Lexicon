@@ -1,3 +1,10 @@
+``` Delete the code segment before commit
+---
+tags:
+  - tag 1
+  - tag 2
+---
+```
 # [Create file with title and name: [English] - [Japanese]]
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
@@ -13,7 +20,3 @@ mindmap
 > May be confused with
 >  - Name 1
 >  - Name 2
-
-___
-
-[Include the appropriate tags under this line]

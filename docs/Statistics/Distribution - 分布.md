@@ -1,3 +1,11 @@
+---
+tags:
+  - ML
+  - Mathematics
+  - Statistics
+---
+
+# Distribution - 分布
 ``` mermaid
 %%{init: {'theme':'neutral'}}%%
 mindmap
@@ -7,6 +15,6 @@ mindmap
 		ぶんぷ
 		Bunpu
 ```
-
-___
-#Mathematics #Statistics #ML 
+> [!CAUTION]
+> May be confused with
+>  - [[Differential - 微分]]
