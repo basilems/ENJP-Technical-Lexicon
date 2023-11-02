@@ -7,13 +7,11 @@ tags:
 
 # Distribution - 分布
 ``` mermaid
-%%{init: {'theme':'neutral'}}%%
-mindmap
-(**=**)
-	Distribution
-	分布
-		ぶんぷ
-		Bunpu
+graph LR
+  A((=)) --> B([Distribution]);
+  A --> C([分布]);
+  C --> D([ぶんぷ]);
+  C --> E([bunpu]);
 ```
 > [!CAUTION]
 > May be confused with

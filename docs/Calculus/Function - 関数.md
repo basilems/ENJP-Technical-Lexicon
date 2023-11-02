@@ -6,11 +6,9 @@ tags:
 ---
 # Function - 関数
 ```mermaid
-%%{init: {'theme':'neutral'}}%%
-mindmap
-(**=**)
-	Function
-	関数
-		かんすう
-		kansuu
+graph LR
+  A((=)) --> B([Function]);
+  A --> C([関数]);
+  C --> D([かんすう]);
+  C --> E([kansuu]);
 ```

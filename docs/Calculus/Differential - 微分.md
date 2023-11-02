@@ -7,14 +7,15 @@ tags:
 # Differential - 微分
 
 ```mermaid
-%%{init: {'theme':'neutral'}}%%
-mindmap
-(**=**)
-	Differential
-	Derivative
-	微分
-		びぶん
-		bibun
+graph LR
+  A((=)) --> B((Multiple Translations));
+  B --> F([Differential]);
+  B --> G([Derivative]);
+  B --> H([Differentiation]);
+  A --> C([微分]);
+  C --> D([びぶん]);
+  C --> E([bibun]);
+
 ```
 
 >[!CAUTION]
