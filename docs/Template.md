@@ -1,4 +1,4 @@
-# [Create file with name: "\<English> - \<Japanese>"]
+# [Create file with title and name: [English] - [Japanese]]
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
 mindmap
