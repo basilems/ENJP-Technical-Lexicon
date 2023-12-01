@@ -1,11 +1,9 @@
->Remove the indentation when creating a new entry
->---
->tags:
- > - tag 1
- > - tag 2
->---
-
-# [Create file with title and name: [English] - [Japanese]]
+---
+tags:
+  - Template
+  - Frequent-Use
+---
+# Create file with title and name: [English] - [Japanese]
 ``` mermaid
 graph LR
   A((=)) --> B((English Transcription));
@@ -23,6 +21,10 @@ graph LR
 >  - Name 2
 
 > [!NOTE]
-> Contains lingustic roots
->  - Root 1
->  - Root 2
+> Derived from/Used in:
+>  - Reference 1
+>  - Reference 2
+
+> [!tip] See more
+> - Reference
+
