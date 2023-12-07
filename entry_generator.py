@@ -17,6 +17,15 @@ tags:
 def assign_category(category):
     return f"docs/{category}"
 
+def get_tag_list():
+    tags = []
+    with open("docs/Tags.md", "r") as md:
+        for line in md:
+            if line[:2] == "##":
+                tags.append(line[2:-1])
+
+    return tags
+
 def get_categories():
     dirs = gl.glob("docs/*/")
     dirs = [text[5:-1] for text in dirs]
@@ -90,15 +99,13 @@ if __name__ == "__main__":
     print(get_categories())
 
     st.title("Lexicon Entry Generator")
-    st.text("This web app allows for an easy and fast workflow when "
-            "adding new entries to the project")
+    st.write("This web app allows for an easy and fast workflow when "
+             "adding new entries to the project")
 
     category = st.selectbox("Please select the main category of the entry",
                             get_categories())
 
-    tags = st.text_input("Add tags", placeholder="Please separate with commas")
-
-    tags_list = re.split(", *", tags)
+    tags_list = st.multiselect("Add tags", get_tag_list())
 
     st.caption(tags_list)
 
