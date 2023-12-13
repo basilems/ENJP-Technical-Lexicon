@@ -1,3 +1,9 @@
+---
+tags:
+  - ML
+  - Neural Networks
+  - Techniques
+---
 # ANOVA - 分散分析
 ``` mermaid
 graph LR

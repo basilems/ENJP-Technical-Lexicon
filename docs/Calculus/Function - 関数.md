@@ -2,7 +2,7 @@
 tags:
   - Calculus
   - Mathematics
-  - Frequent-Use
+  - Frequent Use
 ---
 # Function - 関数
 ```mermaid

@@ -1,8 +1,8 @@
 ---
 tags:
-  - Frequent-Use
+  - Frequent Use
   - ML
-  - NeuralNetworks
+  - Neural Networks
 ---
 # Learning - 学習
 ``` mermaid

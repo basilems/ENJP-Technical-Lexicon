@@ -62,10 +62,9 @@ def create_caution(caution_list):
     return caution_start + "\n".join(item for item in caution_content)
 
 def create_note(note_list, roots):
-    intro_text = ["Used in", "Derived from"]
 
     note_start = f"""> [!Note]
-> {intro_text[int(roots)]}:
+> Linked to:
 """
 
     note_content = [f"""> - [[{item}]]""" for item in note_list]

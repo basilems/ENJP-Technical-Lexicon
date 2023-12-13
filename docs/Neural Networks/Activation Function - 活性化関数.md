@@ -1,7 +1,7 @@
 ---
 tags:
   - ML
-  - NeuralNetworks
+  - Neural Networks
 ---
 
 # Activation Function - 活性化関数
