@@ -8,8 +8,9 @@ tags:
 graph LR
   A((=)) --> B((English Transcription));
   B --> F([Equation]);
-  B --> G([('Formula',)]);
+  B --> G([Formula]);
   A --> C([方程式]);
   C --> D([ほうていしき]);
   C --> E([houteishiki]);
 ```
+
